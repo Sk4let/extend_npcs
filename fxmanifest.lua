@@ -6,7 +6,7 @@ game         'gta5'
 --[[ Resource Information ]]--
 name         'extend_npcs'
 author       'http://extend.studio/'
-version      '0.0.1'
+version      '0.0.2'
 description  ''
 
 --[[ Manifest ]]--

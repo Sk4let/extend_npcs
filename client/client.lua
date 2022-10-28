@@ -10,6 +10,7 @@ Citizen.CreateThread(function()
 end)
 
 
+
 function requestNpcModel(model, timeout)
 	if not tonumber(model) then model = joaat(model) end
 	if HasModelLoaded(model) then return model end
@@ -21,7 +22,7 @@ function requestNpcModel(model, timeout)
 	return request(model)
 end
 
-local function request(modelName)
+function request(modelName)
 
 	RequestModel(modelName)
 
